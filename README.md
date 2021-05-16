@@ -21,4 +21,16 @@ I then built a Neural Network Deep Learning Model.  After testing the model and 
     
     - The columns EIN and NAME were dropped from the data set rather than including them in the features as they are identifiers of the organizaitions that do not add insight into whether their request will be successful.  The SPECIAL_CONSIDERATIONS column was also dropped in an attempt to reduce noise in the data set after testing the initial model.
 
-- 
+- Compiling, Training, and Evaluating the Model
+
+    - I used 120 neurons for the two hidden layers of the model, as that was roughly 3 times the number of features.  I used two hidden layers and one output layer as one layer would likely not be sufficient in achieving an accurate model, and three layers proved no more effective than two layers while tweaking the model and took longer to fit.  I used the Relu activation function for the hidden layers because there were no negative values in the input data, and I used the Sigmoid activation function for the output layer to achieve a binary classification result.
+
+    - The initial model had an accuracy of 72.76 %.  
+    
+    ![first model](Resources/first_accuracy.png)
+    
+    After attempting five times to optimize I was unable to achieve the desired 75 % accuracy.  The final version of the model tested achieved an accuracy of 73.07 %.
+
+    ![final model](Resources/final_accuracy.png)
+
+    - 
