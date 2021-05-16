@@ -29,7 +29,7 @@ I then built a Neural Network Deep Learning Model.  After testing the model and 
     
     ![first model](Resources/first_accuracy.png)
     
-    After attempting five times to optimize I was unable to achieve the desired 75 % accuracy.  The final version of the model tested achieved an accuracy of 73.07 %.
+        After attempting five times to optimize I was unable to achieve the desired 75 % accuracy.  The final version of the model tested achieved an accuracy of 73.07 %.
 
     ![final model](Resources/final_accuracy.png)
 
